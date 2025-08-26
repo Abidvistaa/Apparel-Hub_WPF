@@ -1,0 +1,352 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--Login Page-->
+    <system:String x:Key="SelectUser">Seleccionar Usuario</system:String>
+    <system:String x:Key="UserSelect">-------Seleccionar-------</system:String>
+    <system:String x:Key="Manager">Gerente</system:String>
+    <system:String x:Key="OpPaca">Operador (PACA ROPA)</system:String>
+    <system:String x:Key="OpRopa">Operador (ROPA PREMIUM)</system:String>
+    <system:String x:Key="OpMisc">Operador (MISCELANEA)</system:String>
+    <system:String x:Key="OpZapato">Operador (ZAPATO)</system:String>
+    <system:String x:Key="OpInc">Operador (Entrante)</system:String>
+    <system:String x:Key="OpIncOut">Operador (Entrando Y Saliendo)</system:String>
+    <system:String x:Key="OpSorter">Operador (Clasificador)</system:String>
+    <system:String x:Key="OpProcess">Operador (PROCESAMIENTO)</system:String>
+    <system:String x:Key="OpShipping">Operador (ENVÍO)</system:String>
+    <system:String x:Key="Password">Escriba la contraseña</system:String>
+
+    <!--Settings Page-->
+    <system:String x:Key="Printer">Máquina Impresora</system:String>
+    <system:String x:Key="Host">IP del host</system:String>
+    <system:String x:Key="Port">Puerto</system:String>
+    <system:String x:Key="WeightMachine">Máquina de pesas</system:String>
+    <system:String x:Key="Style">Estilo de impresión?</system:String>
+    <system:String x:Key="1label">1 Etiqueta</system:String>
+    <system:String x:Key="2labels">1 Etiquetas</system:String>
+    <system:String x:Key="Computer">Computadora</system:String>
+    <system:String x:Key="Name">Nombre</system:String>
+    <system:String x:Key="IP">IP</system:String>
+    <system:String x:Key="Server">Seleccionar Servidor</system:String>
+    <system:String x:Key="Live">Vivir</system:String>
+    <system:String x:Key="QA">QA</system:String>
+    <system:String x:Key="Language">Idioma</system:String>
+    <system:String x:Key="English">Inglés</system:String>
+    <system:String x:Key="Spanish">Español</system:String>
+    <system:String x:Key="Warehouse">Depósito</system:String>
+    <system:String x:Key="USA">EE.UU</system:String>
+    <system:String x:Key="Guatemala">Guatemala</system:String>
+
+    <!--Incoming List-->
+    <system:String x:Key="VehicleType">Tipo de vehículo</system:String>
+    <system:String x:Key="VehicleNo">Número de vehículo</system:String>
+    <system:String x:Key="SealNo">Número de sello</system:String>
+    <system:String x:Key="Unloader">Descargador</system:String>
+    <system:String x:Key="UnloadingDate">Fecha de descarga</system:String>
+    <system:String x:Key="VendorCode">Código de proveedor</system:String>
+    <system:String x:Key="VendorName">Nombre del proveedor</system:String>
+    <system:String x:Key="City">Ciudad</system:String>
+    <system:String x:Key="State">Estado</system:String>
+    <system:String x:Key="Type">Tipo</system:String>
+    <system:String x:Key="Location">Ubicación</system:String>
+    <system:String x:Key="Class">Clase</system:String>
+    <system:String x:Key="RouteNo">Número de ruta</system:String>
+    <system:String x:Key="Status">Estado</system:String>
+    <system:String x:Key="OutNo">Fuera No</system:String>
+    <system:String x:Key="InvoiceNo">Número de factura</system:String>
+    <system:String x:Key="CustomerName">Nombre del cliente</system:String>
+    <system:String x:Key="CustomerAddress">Dirección del cliente</system:String>
+
+    <!--Create Incoming-->
+    <system:String x:Key="NewInc">Crear Nuevo Entrante</system:String>
+    <system:String x:Key="IncNum">Número Entrante</system:String>
+    <system:String x:Key="Trailer">Tráiler</system:String>
+    <system:String x:Key="Pod">Vaina</system:String>
+    <system:String x:Key="Truck">Camión</system:String>
+    
+    <!--Modify Incoming-->
+    <system:String x:Key="OldIncoming">Número entrante antiguo</system:String>
+    <system:String x:Key="NewIncoming">Nuevo número entrante</system:String>
+    <system:String x:Key="ResetIncoming">Restablecer número entrante</system:String>
+    <system:String x:Key="NextIncoming">Tipo Siguiente Número Entrante</system:String>
+    <system:String x:Key="CurrentSerial">Serie actual</system:String>
+    
+    <!--Scaled Incoming-->
+    <system:String x:Key="Barcode">Código de barras</system:String>
+    <system:String x:Key="Incoming">Entrante</system:String>
+    <system:String x:Key="Gaylord">Señor Gay</system:String>
+    <system:String x:Key="Wooden">Palet de madera</system:String>
+    <system:String x:Key="Date">Fecha</system:String>
+    <system:String x:Key="PrintF">Imprimir completo</system:String>
+    <system:String x:Key="PrintH">Imprimir la mitad</system:String>
+    
+    <!--Incoming Weight-->
+    <system:String x:Key="Nickname">Apodo</system:String>
+    <system:String x:Key="PalletWeight">Peso de la transpaleta</system:String>
+    <system:String x:Key="PalletHint">Peso del transpaleta</system:String>
+    <system:String x:Key="BoxHint">Peso de caja de madera</system:String>
+    <system:String x:Key="GaylordWeight">Peso Gaylord</system:String>
+    <system:String x:Key="GaylordHint">Peso Gaylord</system:String>
+    <system:String x:Key="WoodenPallet">Peso de paleta de madera</system:String>
+    <system:String x:Key="NetWeightHint">Total-Paleta-Caja</system:String>
+    
+    <!--Pallet Jack-->
+    <system:String x:Key="Header">Encabezamiento</system:String>
+    
+    <!--Inoming Out-->
+    <system:String x:Key="BicycleUnit">Unidad de bicicletas</system:String>
+    
+    <!--Process List-->
+    <system:String x:Key="ProcessBarcode">Código de barras de proceso</system:String>
+    <system:String x:Key="IncomingBarcode">Código de barras entrante</system:String>
+    
+    <!--Process Product-->
+    <system:String x:Key="GeneratedBarcode">Código de barras generado</system:String>
+    <system:String x:Key="LessWeight">Menos otro peso</system:String>
+    <system:String x:Key="ProNetWeightHint">Peso Total - Otro peso</system:String>
+    <system:String x:Key="ScanBarcode">Escanea el código de barras aquí</system:String>
+    
+    <!--Label Print-->
+    <system:String x:Key="StaffId">Identificación del personal</system:String>
+    <system:String x:Key="LabelNum">Número de etiqueta</system:String>
+    <system:String x:Key="HowMany">¿Cuántas etiquetas?</system:String>
+    <system:String x:Key="Another">¿Necesitas una etiqueta diferente?</system:String>
+    <system:String x:Key="Yes">Sí</system:String>
+    <system:String x:Key="No">No</system:String>
+    
+    <!--Create Employee-->
+    <system:String x:Key="EmpName">Nombre del empleado</system:String>
+    <system:String x:Key="FullName">Nombre completo</system:String>
+    
+    <!--Last Scaled-->
+    <system:String x:Key="Department">Departamento</system:String>
+    <system:String x:Key="ActionDate">Fecha de acción</system:String>
+    <system:String x:Key="ActionBy">Acción por</system:String>
+
+    <!--Sorter Table-->
+    <system:String x:Key="TableName">Nombre de la tabla</system:String>
+    <system:String x:Key="TableHint">Introduzca el nombre de la tabla</system:String>
+    
+    <!--Drop Code-->
+    <system:String x:Key="Description">Descripción</system:String>
+    
+    <!--Staff Process-->
+    <system:String x:Key="SortedTotal">Clasificador total</system:String>
+    <system:String x:Key="SortedWeight">Peso ordenado</system:String>
+    <system:String x:Key="SortedUnit">Unidad ordenada</system:String>
+    <system:String x:Key="SelectStaffCode">Seleccionar código de personal</system:String>
+    <system:String x:Key="SelectStaffName">Seleccionar nombre del personal</system:String>
+    <system:String x:Key="Or">O</system:String>
+    <system:String x:Key="Staff">Personal</system:String>
+    <system:String x:Key="Today">hoy</system:String>
+    <system:String x:Key="Yesterday">ayer</system:String>
+    <system:String x:Key="Weekly">semanalmente</system:String>
+    <system:String x:Key="Monthly">mensual</system:String>
+    <system:String x:Key="Hasnt">no tiene datos para</system:String>
+
+    <!--Cajon Barcode-->
+    <system:String x:Key="WoodenBoxNo">Número de caja de madera</system:String>
+    <system:String x:Key="BoxNo">Número de caja</system:String>
+    <system:String x:Key="BoxWeight">Peso de la caja</system:String>
+    
+    <!--Product Weight-->
+    <system:String x:Key="ProductWeight">Peso del producto</system:String>
+    <system:String x:Key="ProductUnit">Unidad de producto</system:String>
+    
+    <!--Product Nickname-->
+    <system:String x:Key="Search">Buscar</system:String>
+    <system:String x:Key="OnlyWeight">Sólo Peso</system:String>
+    <system:String x:Key="OnlyUnit">Solo Unidad</system:String>
+    
+    <!--Shipping-->
+    <system:String x:Key="Showing">Mostrando</system:String>
+    <system:String x:Key="To">a</system:String>
+    <system:String x:Key="Of">de</system:String>
+    <system:String x:Key="Entries">entradas</system:String>
+    <system:String x:Key="BiUnit">Unidad Bi</system:String>
+    <system:String x:Key="Prev">Previo</system:String>
+    <system:String x:Key="Next">Próximo</system:String>
+
+    <!--Messages-->
+    <system:String x:Key="AllFields">¡Por favor rellena cada campo!</system:String>
+    <system:String x:Key="SomethingWrong">No se pudo guardar el producto. ¡Algo anda mal!</system:String>
+    <system:String x:Key="Failed">¡Fallido!</system:String>
+    <system:String x:Key="IncSuccess">¡El entrante se ha creado exitosamente!</system:String>
+    <system:String x:Key="IncUpdate">¡Entrante se actualizó exitosamente!</system:String>
+    <system:String x:Key="CantDelete">¡¡Lo siento!! No puedes eliminar esta información. Tiene dependencia del producto entrante.</system:String>
+    <system:String x:Key="CantReopen">¡¡Lo siento!! No puedes volver a abrir el número entrante abierto.</system:String>
+    <system:String x:Key="Sorry">¡¡Lo siento!! Algo salió mal.</system:String>
+    <system:String x:Key="Digits">El número entrante debe tener 5 dígitos. ¡Intentar otra vez!</system:String>
+    <system:String x:Key="FailedModifying">No se pudo modificar el número entrante. ¡Algo anda mal!</system:String>
+    <system:String x:Key="CantChange">¡No puede cambiar el IncNo porque los productos ya han sido pesados ​​según el IncNo o ya existe!</system:String>
+    <system:String x:Key="IncModify">¡El número entrante se modificó exitosamente!</system:String>
+    <system:String x:Key="Problem">Problema</system:String>
+    <system:String x:Key="NicknameSelect">Seleccione un apodo y espere el código alfabético y numérico o haga que el peso total sea superior a 0</system:String>
+    <system:String x:Key="Weight>0">El peso debe ser mayor que 0.</system:String>
+    <system:String x:Key="NetWeight>0">El peso neto debe ser superior a 0.</system:String>
+    <system:String x:Key="ForgetUnit">¿Olvidaste ingresar a la unidad?</system:String>
+    <system:String x:Key="IncProSuccess">¡El producto entrante se ha agregado exitosamente!</system:String>
+    <system:String x:Key="NotComplete">¡Esta acción aún no se ha completado!</system:String>
+    <system:String x:Key="SetIP">¡Configure la IP de su impresora!</system:String>
+    <system:String x:Key="PalletBarcode">¡El código de barras Pallet Jack se ha creado con éxito!</system:String>
+    <system:String x:Key="IncRemove">¡Entrante se ha eliminado con éxito!</system:String>
+    <system:String x:Key="EnterStaffDrop">Ingrese una identificación de personal y un código de baja válidos.</system:String>
+    <system:String x:Key="ValidLabelNo">Ingrese un número válido para el recuento de etiquetas.</system:String>
+    <system:String x:Key="EmpAssign">¡El empleado ha sido asignado exitosamente!</system:String>
+    <system:String x:Key="UpdateEmp">¡El empleado ha sido actualizado exitosamente!</system:String>
+    <system:String x:Key="DeleteEmp">¡Empleado eliminado exitosamente!</system:String>
+    <system:String x:Key="TableField">¡Por favor complete el campo del nombre de la tabla!</system:String>
+    <system:String x:Key="Exists">¡Fallido! La tabla ya existe.</system:String>
+    <system:String x:Key="TableAssign">¡La mesa ha sido asignada exitosamente!</system:String>
+    <system:String x:Key="UpdateTable">¡La tabla se ha actualizado correctamente!</system:String>
+    <system:String x:Key="DeleteTable">¡Tabla eliminada exitosamente!</system:String>
+    <system:String x:Key="FillBoth">¡Por favor complete ambos campos!</system:String>
+    <system:String x:Key="DropCodeCreate">¡El código de entrega se ha creado correctamente!</system:String>
+    <system:String x:Key="UpdateDropCode">¡El código de entrega se ha actualizado correctamente!</system:String>
+    <system:String x:Key="UseAlready">¡¡¡Lo siento!!! El Dropcode ya se ha utilizado en Procesamiento de información.</system:String>
+    <system:String x:Key="DeleteDropCode">¡El código de caída se eliminó correctamente!</system:String>
+    <system:String x:Key="CajonSuccess">¡El código de barras del cajón se ha creado con éxito!</system:String>
+    <system:String x:Key="CajonUpdate">¡El código de barras del cajón se ha actualizado correctamente!</system:String>
+    <system:String x:Key="LimitExceed">límite excedido</system:String>
+    <system:String x:Key="OutgoingSuccess">¡El producto saliente se ha agregado exitosamente!</system:String>
+    <system:String x:Key="InputUnit">¡Por favor ingrese la peso!</system:String>
+    <system:String x:Key="InputWeight">¡Por favor ingrese la unidad!</system:String>
+    <system:String x:Key="BothField">¡Debes ingresar tanto el peso como la unidad!</system:String>
+    <system:String x:Key="EnterContBarcode">Seleccione el contenedor e ingrese un código de barras.</system:String>
+    <system:String x:Key="CheckBarcode">¡Falló la carga! Por favor verifique el código de barras.</system:String>
+    <system:String x:Key="ContainerSuccess">¡La carga del producto se ha agregado al contenedor con éxito!</system:String>
+    <system:String x:Key="SeeProduct">Seleccione un contenedor para ver ProductOuts</system:String>
+    <system:String x:Key="FirstTable">Ya estás en la primera mesa de clasificación", "No existe ninguna tabla anterior.</system:String>
+    <system:String x:Key="LastTable">Ya estás en la última mesa de clasificación", "No existe ninguna tabla siguiente.</system:String>
+    <system:String x:Key="Inputes">Ingrese la tabla de clasificación, el código de personal, el código de barras entrante, el código de entrega y haga que el peso total sea superior a 0</system:String>
+    <system:String x:Key="TableMatch">La tabla clasificadora no coincide. Por favor ingrese un número de tabla válido.</system:String>
+    <system:String x:Key="EmployeeMatch">La identificación del empleado no coincide. Por favor ingrese una identificación de empleado válida.</system:String>
+    <system:String x:Key="DropCodeMatch">El código de entrega no coincide. Ingrese un código de entrega válido.</system:String>
+    <system:String x:Key="BarcodeUnmatch">¡El código de barras entrante no coincide!</system:String>
+    <system:String x:Key="ProceeDone">¡El proceso del producto se ha realizado con éxito!</system:String>
+    <system:String x:Key="ProcessUpdate">¡El proceso del producto se ha actualizado correctamente!</system:String>
+    <system:String x:Key="InvalidSorterTable">La entrada proporcionada no coincide con ninguna tabla de clasificación válida.</system:String>
+    <system:String x:Key="NotSimilar">El ID de la tabla clasificadora pasado desde el formulario Lista no existe en la lista recuperada.</system:String>
+    <system:String x:Key="ValidIP">Por favor proporcione una IP válida.</system:String>
+    <system:String x:Key="ValidPort">Por favor proporcione un puerto válido</system:String>
+    <system:String x:Key="ComputerIP">Por favor proporcione una IP válida de la computadora</system:String>
+    <system:String x:Key="LoginFailed">¡Error de inicio de sesion! ¡Por favor proporcione un nombre de usuario y contraseña válidos!</system:String>
+    <system:String x:Key="ActionFor">Esta acción para </system:String>
+    <system:String x:Key="IsCompleted"> está completo.</system:String>
+    <system:String x:Key="Sure?">Estas seguro</system:String>
+    <system:String x:Key="SelectStaff">Por favor seleccione un miembro del personal.</system:String>
+    <system:String x:Key="FinishConfirm">¡OJO! Por favor revise que no quede nada pendiente para pesar. Presionando SI se indica que ya revisaste y estás seguro(a) que ya no queda nada pendiente para pesar. ¿Estás seguro (a)?</system:String>
+    <system:String x:Key="IncorrectPassword">¡Contraseña de administrador incorrecta!</system:String>
+    <system:String x:Key="EntryCancelled">¡La entrada de contraseña ha sido cancelada o está vacía!</system:String>
+
+    <!--Page Names-->
+    <system:String x:Key="Login">Acceso</system:String>
+    <system:String x:Key="Settings">Ajustes</system:String>
+    <system:String x:Key="Home">Hogar</system:String>
+    <system:String x:Key="IncList">Lista Entrante</system:String>
+    <system:String x:Key="UpdateInc">Actualización entrante</system:String>
+    <system:String x:Key="CreateInc">Crear Entrante</system:String>
+    <system:String x:Key="Modify">Modificar número entrante</system:String>
+    <system:String x:Key="ScaledIncoming">Lista entrante escalada</system:String>
+    <system:String x:Key="IncomingWeight">Peso del producto entrante</system:String>
+    <system:String x:Key="IncOut">Entrante y saliente</system:String>
+    <system:String x:Key="SortProcess">Clasificación y procesamiento</system:String>
+    <system:String x:Key="ProcessProduct">Producto de proceso</system:String>
+    <system:String x:Key="ProductDepartment">Departamentos de productos</system:String>
+    <system:String x:Key="ProductNickname">Apodos De productos</system:String>
+    <system:String x:Key="ListBy">Lista De Productos Escalada Por</system:String>
+    <system:String x:Key="ProcessList">Lista de productos de procesamiento</system:String>
+    <system:String x:Key="UpdateProduct">Actualizar producto</system:String>
+    <system:String x:Key="CreateEmployee">Crear Empleado</system:String>
+    <system:String x:Key="LabelPrint">Impresión de etiquetas</system:String>
+    <system:String x:Key="PalletJack">Transpaleta</system:String>
+    <system:String x:Key="Cajon">Código de barras del cajón</system:String>
+    <system:String x:Key="UpdateCajon">Actualizar el código de barras del cajón</system:String>
+    <system:String x:Key="ProDept">Departamentos de Productos</system:String>
+    <system:String x:Key="LastScale">Última escala</system:String>
+    <system:String x:Key="Shipping">Envío</system:String>
+    <system:String x:Key="TodayProcess">El proceso de hoy</system:String>
+    <system:String x:Key="StaffProcess">Proceso por parte del personal</system:String>
+    <system:String x:Key="ManagerAccess">Código de acceso (Código de administrador)</system:String>
+    <system:String x:Key="AccessCodePACA">Código de acceso (Paca Ropa)</system:String>
+    <system:String x:Key="AccessCodeROPA">Código de acceso (Ropa Premium)</system:String>
+    <system:String x:Key="AccessCodeMISCELANEA">Código de acceso (Miscelanea)</system:String>
+    <system:String x:Key="AccessCodeZAPATO">Código de acceso (Zapato)</system:String>
+    
+    <!--Common-->
+    <system:String x:Key="IncNo">Entrante No</system:String>
+    <system:String x:Key="ProductCode">Código de producto</system:String>
+    <system:String x:Key="Numeric">Código numérico</system:String>
+    <system:String x:Key="Alpha">Código alfanumérico</system:String>
+    <system:String x:Key="Weight">Peso</system:String>
+    <system:String x:Key="Action">Acción</system:String>
+    <system:String x:Key="Edit">Editar</system:String>
+    <system:String x:Key="Print">Imprimir</system:String>
+    <system:String x:Key="PrintWeight">Peso de impresión</system:String>
+    <system:String x:Key="PrintUnit">Unidad de impresión</system:String>
+    <system:String x:Key="Delete">Borrar</system:String>
+    <system:String x:Key="Esc">Esc</system:String>
+    <system:String x:Key="Enter">Ingresar</system:String>
+    <system:String x:Key="Unit">Unidad</system:String>
+    <system:String x:Key="UnitHint">Unidad Total</system:String>
+    <system:String x:Key="TotalWeight">Peso Total</system:String>
+    <system:String x:Key="WeightHint">Producto+Palet+Caja</system:String>
+    <system:String x:Key="NetWeight">Peso neto del producto</system:String>
+    <system:String x:Key="StaffCode">Código de personal</system:String>
+    <system:String x:Key="StaffName">Nombre del personal</system:String>
+    <system:String x:Key="SorterTable">Mesa clasificadora</system:String>
+    <system:String x:Key="ProductName">Nombre del producto</system:String>
+    <system:String x:Key="DropCode">Código de caída</system:String>
+    <system:String x:Key="WoodenBox">Peso de la caja de madera</system:String>
+    <system:String x:Key="SearchDate">Buscar por fecha</system:String>
+    <system:String x:Key="Container">Recipiente</system:String>
+    <system:String x:Key="Refresh">Peso Refrescante....</system:String>
+    <system:String x:Key="User">Usuario</system:String>
+    
+    <!--Images-->
+    <BitmapImage x:Key="LoginButton" UriSource="/Amedig_Panama_WPF;component/Images/Login_es.png" />
+    <BitmapImage x:Key="SettingsButton" UriSource="/Amedig_Panama_WPF;component/Images/Settings_es.png" />
+    <BitmapImage x:Key="BackButton" UriSource="/Amedig_Panama_WPF;component/Images/Back_es.png" />
+    <BitmapImage x:Key="SaveButton" UriSource="/Amedig_Panama_WPF;component/Images/Save_es.png" />
+    <BitmapImage x:Key="SubmitButton" UriSource="/Amedig_Panama_WPF;component/Images/Submit_es.png" />
+    <BitmapImage x:Key="ShowProductOutButton" UriSource="/Amedig_Panama_WPF;component/Images/Show Product Outs_es.png" />
+    <BitmapImage x:Key="AddProductButton" UriSource="/Amedig_Panama_WPF;component/Images/Add Product_es.png" />
+    <BitmapImage x:Key="FinishedButton" UriSource="/Amedig_Panama_WPF;component/Images/Finished_es.png" />
+    <BitmapImage x:Key="ModifyButton" UriSource="/Amedig_Panama_WPF;component/Images/Modify_es.png" />
+    <BitmapImage x:Key="ResetButton" UriSource="/Amedig_Panama_WPF;component/Images/Reset_es.png" />
+    <BitmapImage x:Key="AddIncomingButton" UriSource="/Amedig_Panama_WPF;component/Images/Add Incoming_es.png" />
+    <BitmapImage x:Key="CreateIncomingButton" UriSource="/Amedig_Panama_WPF;component/Images/Create Incoming_es.png" />
+    <BitmapImage x:Key="IncomingListButton" UriSource="/Amedig_Panama_WPF;component/Images/Incoming List_es.png" />
+    <BitmapImage x:Key="UpdateIncomingButton" UriSource="/Amedig_Panama_WPF;component/Images/Update Incoming_es.png" />
+    <BitmapImage x:Key="ModifyIncomingButton" UriSource="/Amedig_Panama_WPF;component/Images/Modify Incoming_es.png" />
+    <BitmapImage x:Key="IncomingWeightButton" UriSource="/Amedig_Panama_WPF;component/Images/Incoming Weight_es.png" />
+    <BitmapImage x:Key="ScaledIncomingButton" UriSource="/Amedig_Panama_WPF;component/Images/Scaled Incoming_es.png" />
+    <BitmapImage x:Key="PalletJackButton" UriSource="/Amedig_Panama_WPF;component/Images/Pallet Jack Barcode_es.png" />
+    <BitmapImage x:Key="IncomingOutButton" UriSource="/Amedig_Panama_WPF;component/Images/Incoming Out_es.png" />
+    <BitmapImage x:Key="SortingManButton" UriSource="/Amedig_Panama_WPF;component/Images/Sorting Man_es.png" />
+    <BitmapImage x:Key="SortingOpButton" UriSource="/Amedig_Panama_WPF;component/Images/Sorting Op_es.png" />
+    <BitmapImage x:Key="CajonBarcodeButton" UriSource="/Amedig_Panama_WPF;component/Images/Cajon Barcode_es.png" />
+    <BitmapImage x:Key="DepartmentButton" UriSource="/Amedig_Panama_WPF;component/Images/Department Products_es.png" />
+    <BitmapImage x:Key="LoadProductButton" UriSource="/Amedig_Panama_WPF;component/Images/Load Product_es.png" />
+    <BitmapImage x:Key="PreviousTableButton" UriSource="/Amedig_Panama_WPF;component/Images/Previous Table_es.png" />
+    <BitmapImage x:Key="NextTableButton" UriSource="/Amedig_Panama_WPF;component/Images/Next Table_es.png" />
+    <BitmapImage x:Key="ProcessListButton" UriSource="/Amedig_Panama_WPF;component/Images/Processing List_es.png" />
+    <BitmapImage x:Key="UpdateProcessButton" UriSource="/Amedig_Panama_WPF;component/Images/Update Product_es.png" />
+    <BitmapImage x:Key="ProcessWeightButton" UriSource="/Amedig_Panama_WPF;component/Images/Processing Weight_es.png" />
+    <BitmapImage x:Key="LabelPrintButton" UriSource="/Amedig_Panama_WPF;component/Images/Label Print_es.png" />
+    <BitmapImage x:Key="AssignEmployeeButton" UriSource="/Amedig_Panama_WPF;component/Images/Assign Employee_es.png" />
+    <BitmapImage x:Key="SorterTableButton" UriSource="/Amedig_Panama_WPF;component/Images/Sorter Table_es.png" />
+    <BitmapImage x:Key="DropCodeButton" UriSource="/Amedig_Panama_WPF;component/Images/Drop Code_es.png" />
+    <BitmapImage x:Key="PrintBarcodeButton" UriSource="/Amedig_Panama_WPF;component/Images/Print Barcode_es.png" />
+    <BitmapImage x:Key="HistoryButton" UriSource="/Amedig_Panama_WPF;component/Images/History_es.png" />
+    <BitmapImage x:Key="ScaledProductListButton" UriSource="/Amedig_Panama_WPF;component/Images/Scaled Product List_es.png" />
+    <BitmapImage x:Key="ProcessTodayButton" UriSource="/Amedig_Panama_WPF;component/Images/Processing Product Today_es.png" />
+    <BitmapImage x:Key="ProcessByStaffButton" UriSource="/Amedig_Panama_WPF;component/Images/Processing by Staff_es.png" />
+    <BitmapImage x:Key="TodayButton" UriSource="/Amedig_Panama_WPF;component/Images/Today_es.png" />
+    <BitmapImage x:Key="YesterdayButton" UriSource="/Amedig_Panama_WPF;component/Images/Yesterday_es.png" />
+    <BitmapImage x:Key="WeeklyButton" UriSource="/Amedig_Panama_WPF;component/Images/Weekly_es.png" />
+    <BitmapImage x:Key="MonthlyButton" UriSource="/Amedig_Panama_WPF;component/Images/Monthly_es.png" />
+    <ImageBrush x:Key="UpdateButton" ImageSource="/Amedig_Panama_WPF;component/Images/Update_es.png" />
+    <BitmapImage x:Key="UpdateBarcodeButton" UriSource="/Amedig_Panama_WPF;component/Images/Update Barcode_es.png" />
+    <BitmapImage x:Key="SaveToExitButton" UriSource="/Amedig_Panama_WPF;component/Images/Click Save to Exit_es.png" />
+</ResourceDictionary>

@@ -1,0 +1,100 @@
+﻿<Window
+    x:Class="Amedig_Panama_WPF.Views.Setup"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Amedig_Panama_WPF.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="{DynamicResource Settings}"
+    Width="800"
+    Height="600"
+    Icon="/amedig.ico"
+    WindowState="Maximized"
+    mc:Ignorable="d">
+    <Grid  Margin="0,0,-266,-85">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="#7FB77E" Offset="0.0" />
+                <GradientStop Color="#C689C6" Offset="0.5" />
+                <GradientStop Color="#7FBCD2" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label
+            Margin="295,200,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="{DynamicResource Computer}"
+            FontSize="25" FontWeight="Bold"
+            Foreground="#4B4AA9"
+            RenderTransformOrigin="0.099,0.415" />
+        <TextBlock Width="200" Height="50" Margin="380,205,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="25" FlowDirection="RightToLeft">
+            <Run Text=":" />
+            <Run Text="{DynamicResource Name}" />
+        </TextBlock>        
+        <TextBox
+            x:Name="TextBoxComputerName"
+            Width="328"
+            Height="35"
+            Margin="590,205,-108,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" FontSize="20" />
+
+        <TextBlock Width="200" Height="50" Margin="380,245,0,-17" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="25" FlowDirection="RightToLeft">
+            <Run Text=":" />
+            <Run Text="{DynamicResource IP}" />
+        </TextBlock>        
+        <TextBox
+            x:Name="TextBoxComputerIp"
+            Width="328"
+            Height="33"
+            Margin="590,245,-108,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" FontSize="20" />
+
+        <Label Content="{DynamicResource Server}"
+               Margin="320,420,0,0" FontSize="25"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Foreground="#4B4AA9"
+               FontWeight="Bold" />
+        <RadioButton x:Name="RadioButton3" Content="{DynamicResource Live}" HorizontalAlignment="Left"
+                     Margin="570,430,0,0" VerticalAlignment="Top" Background="Green"
+                     GroupName="ServerSelect" FontSize="25" />        
+        <RadioButton x:Name="RadioButton4" Content="{DynamicResource QA}" HorizontalAlignment="Left"
+                     Margin="730,430,0,0" VerticalAlignment="Top" Background="Green"
+                     GroupName="ServerSelect" FontSize="25" IsChecked="True" />
+
+        <Label Content="{DynamicResource Language}"
+            Margin="320,480,0,0"
+            FontSize="25"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Foreground="#4B4AA9"
+            FontWeight="Bold" />
+        <RadioButton x:Name="rbEnglish" Content="{DynamicResource English}" HorizontalAlignment="Left"
+                     Margin="570,490,0,0" VerticalAlignment="Top" Background="Green" Tag="en"
+                     GroupName="LanguageGroup" FontSize="25" IsChecked="True" Checked="LanguageChanged" />
+        <RadioButton x:Name="rbSpanish" Content="{DynamicResource Spanish}" HorizontalAlignment="Left"
+                     Margin="730,490,0,0" VerticalAlignment="Top" Background="Green" Tag="es"
+                     GroupName="LanguageGroup" FontSize="25" Checked="LanguageChanged" />
+
+        <Button
+            Width="200"
+            Margin="600,620,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="ButtonSettingsSave"
+            FontFamily="Segoe UI Black"
+            FontWeight="Bold"
+            FontSize="25"
+            Foreground="Red" Height="52">
+            <Button.Background>
+                <ImageBrush ImageSource="{DynamicResource SaveToExitButton}" />
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

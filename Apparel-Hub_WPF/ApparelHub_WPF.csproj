@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC7074CD-237A-4B0F-95AC-1BEA2F3AD649}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Amedig_Panama_WPF</RootNamespace>
+    <AssemblyName>Amedig_Panama_WPF</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.2\lib\net45\Newtonsoft.Json.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.6.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\Setup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\en-English.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\es-Español.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AfterLoginHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Keyboards\KeyBoard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Views\Setup.xaml.cs">
+      <DependentUpon>Setup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AfterLoginHome.xaml.cs">
+      <DependentUpon>AfterLoginHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ApiResponse.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\AppUser.cs" />
+    <Compile Include="Views\Keyboards\KeyBoard.xaml.cs">
+      <DependentUpon>KeyBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="amedig.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Add Incoming 1.png" />
+    <Resource Include="Images\Add Incoming_en.png" />
+    <Resource Include="Images\Add Incoming_es.png" />
+    <Resource Include="Images\Add Product_en.png" />
+    <Resource Include="Images\Add Product_es.png" />
+    <Resource Include="Images\Amedig Cover .png" />
+    <Resource Include="Images\Amedig Cover 2 PNG.png" />
+    <Resource Include="Images\amedig.jpg" />
+    <Resource Include="Images\Assign Employee_en.png" />
+    <Resource Include="Images\Assign Employee_es.png" />
+    <Resource Include="Images\Back_en.png" />
+    <Resource Include="Images\Back_es.png" />
+    <Resource Include="Images\Cajon Barcode_en.png" />
+    <Resource Include="Images\Cajon Barcode_es.png" />
+    <Resource Include="Images\Click Save to Exit_en.png" />
+    <Resource Include="Images\Click Save to Exit_es.png" />
+    <Resource Include="Images\Close 1.png" />
+    <Resource Include="Images\Close 2.png" />
+    <Resource Include="Images\Close 3.png" />
+    <Resource Include="Images\Create Incoming_en.png" />
+    <Resource Include="Images\Create Incoming_es.png" />
+    <Resource Include="Images\Department Products_en.png" />
+    <Resource Include="Images\Department Products_es.png" />
+    <Resource Include="Images\Drop Code_en.png" />
+    <Resource Include="Images\Drop Code_es.png" />
+    <Resource Include="Images\Enter 1.png" />
+    <Resource Include="Images\Enter 2.png" />
+    <Resource Include="Images\Finished_en.png" />
+    <Resource Include="Images\Finished_es.png" />
+    <Resource Include="Images\History_en.png" />
+    <Resource Include="Images\History_es.png" />
+    <Resource Include="Images\Incoming List_en.png" />
+    <Resource Include="Images\Incoming List_es.png" />
+    <Resource Include="Images\Incoming Out_en.png" />
+    <Resource Include="Images\Incoming Out_es.png" />
+    <Resource Include="Images\Incoming Weight_en.png" />
+    <Resource Include="Images\Incoming Weight_es.png" />
+    <Resource Include="Images\Label Print_en.png" />
+    <Resource Include="Images\Label Print_es.png" />
+    <Resource Include="Images\Load Product_en.png" />
+    <Resource Include="Images\Load Product_es.png" />
+    <Resource Include="Images\Login_en.png" />
+    <Resource Include="Images\Login_es.png" />
+    <Resource Include="Images\Miscelanea.png" />
+    <Resource Include="Images\Modify Incoming_en.png" />
+    <Resource Include="Images\Modify Incoming_es.png" />
+    <Resource Include="Images\Modify_en.png" />
+    <Resource Include="Images\Modify_es.png" />
+    <Resource Include="Images\Monthly_en.png" />
+    <Resource Include="Images\Monthly_es.png" />
+    <Resource Include="Images\Next Table_en.png" />
+    <Resource Include="Images\Next Table_es.png" />
+    <Resource Include="Images\Otros.png" />
+    <Resource Include="Images\Paca Ropa.png" />
+    <Resource Include="Images\Pallet Jack Barcode_en.png" />
+    <Resource Include="Images\Pallet Jack Barcode_es.png" />
+    <Resource Include="Images\Previous Table_en.png" />
+    <Resource Include="Images\Previous Table_es.png" />
+    <Resource Include="Images\Print 1.png" />
+    <Resource Include="Images\Print 2.png" />
+    <Resource Include="Images\Print Barcode 2.png" />
+    <Resource Include="Images\Print Barcode_en.png" />
+    <Resource Include="Images\Print Barcode_es.png" />
+    <Resource Include="Images\Processing by Staff_en.png" />
+    <Resource Include="Images\Processing by Staff_es.png" />
+    <Resource Include="Images\Processing List_en.png" />
+    <Resource Include="Images\Processing List_es.png" />
+    <Resource Include="Images\Processing Product Today_en.png" />
+    <Resource Include="Images\Processing Product Today_es.png" />
+    <Resource Include="Images\Processing Weight_en.png" />
+    <Resource Include="Images\Processing Weight_es.png" />
+    <Resource Include="Images\Product Update.png" />
+    <Resource Include="Images\Reset_en.png" />
+    <Resource Include="Images\Reset_es.png" />
+    <Resource Include="Images\Road to Process.png" />
+    <Resource Include="Images\Ropa Premium.png" />
+    <Resource Include="Images\Save_en.png" />
+    <Resource Include="Images\Save_es.png" />
+    <Resource Include="Images\Scaled Incoming_en.png" />
+    <Resource Include="Images\Scaled Incoming_es.png" />
+    <Resource Include="Images\Scaled Product List_en.png" />
+    <Resource Include="Images\Scaled Product List_es.png" />
+    <Resource Include="Images\Settings_en.png" />
+    <Resource Include="Images\Settings_es.png" />
+    <Resource Include="Images\Show Product Outs_en.png" />
+    <Resource Include="Images\Show Product Outs_es.png" />
+    <Resource Include="Images\Sorter Table_en.png" />
+    <Resource Include="Images\Sorter Table_es.png" />
+    <Resource Include="Images\Sorting Man_en.png" />
+    <Resource Include="Images\Sorting Man_es.png" />
+    <Resource Include="Images\Sorting Op_en.png" />
+    <Resource Include="Images\Sorting Op_es.png" />
+    <Resource Include="Images\Submit_en.png" />
+    <Resource Include="Images\Submit_es.png" />
+    <Resource Include="Images\Today_en.png" />
+    <Resource Include="Images\Today_es.png" />
+    <Resource Include="Images\Update Barcode 2.png" />
+    <Resource Include="Images\Update Barcode_en.png" />
+    <Resource Include="Images\Update Barcode_es.png" />
+    <Resource Include="Images\Update Incoming 1.png" />
+    <Resource Include="Images\Update Incoming_en.png" />
+    <Resource Include="Images\Update Incoming_es.png" />
+    <Resource Include="Images\Update Product_en.png" />
+    <Resource Include="Images\Update Product_es.png" />
+    <Resource Include="Images\Update_en.png" />
+    <Resource Include="Images\Update_es.png" />
+    <Resource Include="Images\Weekly_en.png" />
+    <Resource Include="Images\Weekly_es.png" />
+    <Resource Include="Images\Yesterday_en.png" />
+    <Resource Include="Images\Yesterday_es.png" />
+    <Resource Include="Images\Zapato.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
